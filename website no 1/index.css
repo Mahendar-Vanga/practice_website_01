@@ -288,7 +288,7 @@ body
     width: 40%;
     height: 100vh;
     position: absolute;
-    top: 1100px;
+    top: 1050px;
     left: 55%;
     padding-top:10px ;
 }
@@ -548,8 +548,7 @@ body
 }
 .newsletter .innertext input[type=email]:focus
 {
-    border: 2px solid cornslik;
-    
+    border: 2px solid crimson;   
 }    
 .newsletter .innertext button[type=submit]{
     width: 120%;
