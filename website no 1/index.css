@@ -544,7 +544,13 @@ body
     position: relative;
     left: -40px;
     padding: 15px;
+    outline:none;
 }
+.newsletter .innertext input[type=email]:focus
+{
+    border: 2px soild cornslik;
+    
+}    
 .newsletter .innertext button[type=submit]{
     width: 120%;
     height: 40px;
@@ -566,6 +572,7 @@ body
 .newsletter .innertext button[type=submit]:hover
 {
     color: cornsilk;
+  
 }
 /* author div */
 .author
