@@ -531,7 +531,7 @@ body
     text-align: center;
     font-weight: 600;
 }
-.newsletter .innertext input[type=email]{
+.newsletter .innertext input["type=email"]{
     width: 120%;
     height: 40px;
     color: gray;
@@ -546,7 +546,7 @@ body
     padding: 15px;
     outline:none;
 }
-.newsletter .innertext input[type=email]:focus
+.newsletter .innertext input["type=email"]:focus
 {
     border: 2px soild cornslik;
     
